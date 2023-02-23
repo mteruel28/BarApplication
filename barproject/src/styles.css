@@ -26,7 +26,8 @@
  text-align: center;
 }
 
-.container2{
+/*Category Bar*/
+.container3{
     background-color: lightcoral;
     padding: 5px;
     margin: 5px;
@@ -43,22 +44,34 @@
     font-size: 20px;
     font-style: italic;
     font-family: cursive;
-    padding: 5px;
-    margin: 5px;
-    flex-basis: auto;
+    padding: 10x;
+    margin: 10px;
+    flex-basis: 25%;
     flex-direction: row;
     justify-content: center;
     text-align: center;
    }
 
 /* SideBar Nav*/
-.sidenav {
+.container2{
     background-color: lightseagreen;
     padding: 5px;
     margin: 5px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    align-items: flex-end;
   }
+
+.sidebar{
+    background-color: mintcream;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    padding: 10x;
+    margin: 10px;
+    flex-basis: 25%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
 
